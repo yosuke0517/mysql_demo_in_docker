@@ -13,9 +13,9 @@
     <tr th:each="emp : ${emplist}" th:object="${emp}">
         <td th:text="*{id}"></td>
         <td th:text="*{email}"></td>
+        <td th:text="*{password}"></td>
 
     </tr>
 </table>
-<p th:text="sample : ${sample[0]}"></p>
 </body>
 </html>

@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.entity;
 
 import lombok.Data;
 
@@ -15,7 +15,7 @@ public class AccountEntity {
     private Integer id;
 
     @Column
-    private String name;
+    private String email;
 
     @Column
     private String password;
